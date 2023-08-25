@@ -4,3 +4,37 @@
     background-color: var(--main);
     height: 400px;
 }
+
+.footer_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: auto;
+    height: 100%;
+    max-width: 940px;
+    text-align: center;
+  }
+
+  .footer_left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer_container h2{
+    font-size: var(--subtitle_size);
+    font-weight: 600;
+    margin-bottom: 34px;
+    color: var(--dark_primary);
+}
+
+.footer_container li{
+    list-style: none;
+    font-size: var(--text_size);
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--dark_primary);
+    text-decoration: none;
+    cursor: pointer;
+}

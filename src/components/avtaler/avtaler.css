@@ -5,6 +5,13 @@
     height: 1000px;
 }
 
+.avtaler_container{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    max-width: 1140px;
+}
+
 .avtaler h1{
     font-size: var(--title_size);
     font-weight: 700;
