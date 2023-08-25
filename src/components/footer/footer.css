@@ -1,0 +1,6 @@
+.footer{
+    padding: 140px 24px 160px;
+    overflow: hidden;
+    background-color: var(--main);
+    height: 400px;
+}

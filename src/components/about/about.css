@@ -1,0 +1,13 @@
+.about{
+    padding: 140px 24px 160px;
+    overflow: hidden;
+    background-color: var(--main);
+    height: 1000px;
+}
+
+.about h1{
+    font-size: var(--title_size);
+    font-weight: 700;
+    margin-bottom: 34px;
+    color: var(--dark_primary);
+}

@@ -1,0 +1,20 @@
+:root {
+    --dark_primary: #40545E;
+    --primary: #5C8D89;
+    --main: #F9F8EB;
+    --submain: #dbedf3;
+    --success: #9AB780;
+    --danger: #AF5561;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --optional: #A7D7C5;
+    --title_size: 40px;
+    --subtitle_size: 24px;
+    --text_size: 16px;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap');
+
+html, body, header, .App, a {
+  font-family: 'Sen', sans-serif;
+}

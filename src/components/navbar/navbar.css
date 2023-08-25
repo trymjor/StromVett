@@ -1,0 +1,71 @@
+/*Aner ikke hvorfor jeg må importere den to ganger for å få den med i navbaren..*/
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap');
+
+.header {
+    position: sticky;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: var(--primary);
+    padding: 0 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 100%;
+    max-width: 1140px;
+  }
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.header p{
+    color: var(--submain);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header .nav-item:last-child {
+    padding-right: 0;
+}
+
+.header .nav-item {
+    display: inline;
+    padding: 1rem;
+    font-weight: 500;
+    padding: 0 32px;
+}
+
+.header .nav-item a{
+    color: var(--submain);
+    font-family:  Verdana, Tahoma,'Geneva', sans-serif;
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+}
+
+.header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--submain);
+}
+
+.header .nav-item a:active{
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--submain);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+  }
