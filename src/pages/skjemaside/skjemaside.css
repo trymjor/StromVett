@@ -1,0 +1,44 @@
+.skjemaside{
+    padding: 140px 24px 160px;
+    overflow: hidden;
+    background-color: var(--main);
+}
+
+.skjema_container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.title_container{
+    text-align: center;
+}
+
+.skjema_container h1{
+    font-size: var(--title_size);
+    font-weight: 700;
+    color: var(--dark_primary);
+    margin-bottom: 48px;
+}
+
+.skjema_container h2{
+    font-size: var(--subtitle_size);
+    font-weight: 400;
+    color: var(--dark_primary);
+    margin-bottom: 32px;
+    max-width: 700px;
+}
+
+.skjema_container p{
+    font-size: var(--text_size);
+    font-weight: 400;
+    color: var(--dark_primary);
+    margin-bottom: 12px;
+    max-width: 700px;
+}
+
+.submit_button_container{
+    justify-content: center;
+    display: flex;
+}

@@ -1,5 +1,5 @@
 .footer{
-    padding: 140px 24px 160px;
+    padding: 80px 24px 80px;
     overflow: hidden;
     background-color: var(--main);
     height: 400px;
@@ -36,5 +36,8 @@
     margin-bottom: 16px;
     color: var(--dark_primary);
     text-decoration: none;
+}
+
+.footer_left_container li{
     cursor: pointer;
 }

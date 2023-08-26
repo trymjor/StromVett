@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 const navbar = () => {
     return (
-        <div className="header">
+        <header className="header">
             <div className="navbar">
                 <div className="navbar_logo">
                     <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
@@ -31,7 +31,7 @@ const navbar = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 

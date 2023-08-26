@@ -7,11 +7,11 @@ import HeroStockPhoto from '../../assets/images/HeroStockPhoto.jpg';
 const hero = () => {
     return (
         <div className="hero" id="hero">
-            <div className="container">
+            <div className="hero_container">
                 <div className="left_container">
                     <h1>For en rimeligere strømavtale</h1>
-                    <h2>- Vi gjør det lettere for deg å finne {/** new line */} <br/>
-    din beste strømavtale.</h2>
+                    <h2>- Vi gjør det lettere for deg å finne <br/>
+                    din beste strømavtale.</h2>
                     <Tilbudbutton/>
                 </div>
                 <div className="right_container">

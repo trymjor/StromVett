@@ -18,7 +18,7 @@ const tilbudbutton = () => {
                 }, 
                 typography: {
                     fontFamily: 'Sen, sans-serif',
-                    textTransform: 'none', // Use the Google Font and fallback fonts
+                    textTransform: 'none', 
             }, 
             }}>Få et tilbud</Button>
         </Link>
