@@ -7,19 +7,21 @@ import { Link } from 'react-router-dom';
 
 const tilbudbutton = () => {
     return (
-        <Button variant="contained" sx={{ 
-            color: '#40545E', 
-            backgroundColor: '#A7D7C5', 
-            borderColor: '#A7D7C5', 
-            borderRadius: '25px',
-            '&:hover':{
-                backgroundColor: '#F9F8EB',
+        <Link to="/skjemaSide">
+            <Button variant="contained" sx={{ 
+                color: '#40545E', 
+                backgroundColor: '#A7D7C5', 
+                borderColor: '#A7D7C5', 
+                borderRadius: '25px',
+                '&:hover':{
+                    backgroundColor: '#F9F8EB',
+                }, 
+                typography: {
+                    fontFamily: 'Sen, sans-serif',
+                    textTransform: 'none', // Use the Google Font and fallback fonts
             }, 
-            typography: {
-                fontFamily: 'Sen, sans-serif',
-                textTransform: 'none', // Use the Google Font and fallback fonts
-          }, 
-        }}>Få et tilbud</Button>
+            }}>Få et tilbud</Button>
+        </Link>
     );
 };
 
