@@ -43,7 +43,7 @@
 
 .header .nav-item {
     display: inline;
-    padding: 1rem;
+    margin: 1rem;
     font-weight: 500;
 }
 
@@ -54,17 +54,8 @@
     font-family: 'Sen', sans-serif;
 }
 
-.header .nav-item a:hover {
+.header .nav-item:hover{
     padding-bottom: 12px;
     border-bottom: 3px solid var(--submain);
+    cursor: pointer;
 }
-
-.header .nav-item a:active{
-    padding-bottom: 12px;
-    border-bottom: 3px solid var(--submain);
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-  }
