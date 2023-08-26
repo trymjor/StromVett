@@ -6,7 +6,8 @@
 }
 
 .avtaler_container{
-    display: flex;
+    display: grid;
+    place-items: center;
     margin: auto;
     height: 100%;
     max-width: 1140px;
