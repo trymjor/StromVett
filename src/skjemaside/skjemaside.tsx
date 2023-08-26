@@ -1,6 +1,7 @@
 import React from 'react';
 import './skjemaside.css';
-import { Tilbudskjema, Tilbudbutton } from '../../components';
+import Tilbudskjema from './components/tilbudskjema/tilbudskjema';
+
 import Button from '@mui/material/Button';
 
 const SkjemaSide = () =>{

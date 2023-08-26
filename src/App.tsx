@@ -2,10 +2,13 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './variables.css';
-import Navbar from './components/navbar/navbar';
-import Footer from './components/footer/footer';
 
-import {TilbudSide, Home, SkjemaSide, PageNotFound} from './pages/';
+import {Footer, Navbar} from './common/';
+
+import TilbudSide from './tilbudside/tilbudside';
+import SkjemaSide from './skjemaside/skjemaside';
+import Home from './home/home';
+import PageNotFound from './pagenotfound/pagenotfound';
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import {Hero, About, Avtaler} from '../../components';
+import {Hero, About, Avtaler} from './components';
 
 const Home = () =>{
   return (

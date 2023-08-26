@@ -1,8 +1,8 @@
 import React from 'react';
 import './about.css';
-import Tilbudbutton from '../tilbudbutton/tilbudbutton';
-import save_money from '../../assets/images/save-money.png';
-import solution from '../../assets/images/solution.png';
+import Tilbudbutton from '../../../common/tilbudbutton/tilbudbutton';
+import save_money from '../../../assets/images/save-money.png';
+import solution from '../../../assets/images/solution.png';
 
 
 const about = () => {
