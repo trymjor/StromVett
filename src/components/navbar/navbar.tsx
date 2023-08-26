@@ -1,5 +1,6 @@
 import React from 'react';
 import default_logo from '../../assets/images/default_logo.svg';
+import Tilbudbutton from '../tilbudbutton/tilbudbutton';
 import './navbar.css';
 // @ts-ignore
 import { Link } from 'react-scroll';
@@ -25,7 +26,7 @@ const navbar = () => {
                             <Link to="footer" spy={true} smooth={true} duration={500}>Kontakt</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="footer" spy={true} smooth={true} duration={500}>Få et tilbud</Link>
+                            <Tilbudbutton/>
                         </li>
                     </ul>
                 </div>

@@ -1,6 +1,7 @@
 import './footer.css';
 // @ts-ignore
 import { Link } from 'react-scroll';
+import Tilbudbutton from '../tilbudbutton/tilbudbutton';
 
 const footer = () => {  
     return (
@@ -29,7 +30,7 @@ const footer = () => {
                 <div className='footer_center_container'>
                     <h2>StrømVett</h2>
                     <ul>
-                        <li><a href="#footer">Få et tilbud</a></li>
+                        <Tilbudbutton/>
                     </ul>
                 </div>
                 <div className='footer_right_container'>
