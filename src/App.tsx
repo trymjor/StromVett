@@ -2,11 +2,8 @@ import React from 'react';
 import './App.css';
 
 import './variables.css';
-import Navbar from './components/navbar/navbar';
-import Footer from './components/footer/footer';
-import Hero from './components/hero/hero';
-import About from './components/about/about';
-import Avtaler from './components/avtaler/avtaler';
+
+import {Navbar, Footer, Hero, About, Avtaler} from './components';
 
 function App() {
   return (
