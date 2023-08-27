@@ -9,7 +9,7 @@ const TilbudSkjema = () => {
                     <div className="input_field">
                     <p>Postnummer:</p>
                         <TextField type="number" size="small" sx={{
-                                width: {sm: 150},
+                                width: {sm: 300},
                                 color: '#40545E', 
                                 backgroundColor: '#F4F9F4',
                                 borderColor: '#A7D7C5',
@@ -18,7 +18,7 @@ const TilbudSkjema = () => {
                     <div className="input_field">
                     <p>Gjennomsnittlig månedlig strømforbruk:</p>
                         <TextField type="number" size="small" sx={{
-                                width: {sm: 150},
+                                width: {sm: 300},
                                 color: '#40545E', 
                                 backgroundColor: '#F4F9F4',
                                 borderColor: '#A7D7C5',

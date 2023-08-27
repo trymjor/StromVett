@@ -61,28 +61,28 @@ const renderPricingElement = ():ReactElement => {
         powersupplier={pricing.name} 
         price={pricing.fixedPrice!} 
         maxprice={maxprice} 
-        avtaletype='Fastprice'/>;
+        avtaletype='Fastpris'/>;
       case 'variable':
         return <PricingElement
         key={index}
         powersupplier={pricing.name}
         price={pricing.variablePrice!}
         maxprice={maxprice}
-        avtaletype='Variable price'/>;
+        avtaletype='Variable pris'/>;
       case 'spot-hourly':
         return <PricingElement
         key={index}
         powersupplier={pricing.name}
         price={pricing.spotPrice!}
         maxprice={maxprice}
-        avtaletype='Times spotprice'/>;
+        avtaletype='Times spotpris'/>;
       case 'spot-monthly':
         return <PricingElement
         key={index}
         powersupplier={pricing.name}
         price={pricing.spotPrice!}
         maxprice={maxprice}
-        avtaletype='Månedlig spotprice'/>;
+        avtaletype='Månedlig spotpris'/>;
       }
     })
   }

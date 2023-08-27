@@ -36,7 +36,7 @@ function Navbar() {
                             <ScrollLink to="about" spy={true} smooth={true} duration={500}>Om Oss</ScrollLink>
                         </li>
                         <li className='nav-item'>
-                            <ScrollLink to="avtaler" spy={true} smooth={true}duration={500}>Strømavtaler</ScrollLink>
+                            <ScrollLink to="deals" spy={true} smooth={true}duration={500}>Strømavtaler</ScrollLink>
                         </li>
                         <li className='nav-item'>
                             <ScrollLink to="footer" spy={true} smooth={true} duration={500}>Kontakt</ScrollLink>
