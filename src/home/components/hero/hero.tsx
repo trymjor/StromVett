@@ -3,7 +3,6 @@ import './hero.css';
 import Tilbudbutton from '../../../common/tilbudbutton/tilbudbutton';
 import HeroStockPhoto from '../../../assets/images/HeroStockPhoto.jpg';
 
-
 const hero = () => {
     return (
         <div className="hero" id="hero">

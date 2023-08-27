@@ -1,0 +1,47 @@
+.pricingpage{
+    padding: 140px 24px 160px;
+    overflow: hidden;
+    background-color: var(--primary);
+}
+
+.pricing_container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.title_container{
+    text-align: center;
+}
+
+.pricingpage h1{
+    font-size: var(--title_size);
+    font-weight: 700;
+    color: var(--submain);
+    margin-bottom: 48px;
+}
+
+.pricingpage h2{
+    font-size: var(--subtitle_size);
+    font-weight: 700;
+    color: var(--submain);
+    margin-bottom: 32px;
+}
+
+.description_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.description_line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--submain);
+    margin: 0px 12px 32px 12px;
+}
+
+.pricing_elements{
+    display: flex;
+}

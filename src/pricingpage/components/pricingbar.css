@@ -1,0 +1,27 @@
+.pricingbar{
+    position: relative;
+    width: 86px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.inner_bar, .outer_bar{
+    position: absolute;
+}
+
+.outer_bar{
+    width: 86px;
+    height: 300px;
+    background-color: var(--submain);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.inner_bar{
+    width: 86px;
+    height: 250px;
+    background-color: var(--optional);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    bottom: 0;
+}

@@ -1,24 +1,24 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import './App.css';
 import './variables.css';
 
 import {Footer, Navbar} from './common/';
 
-import TilbudSide from './tilbudside/tilbudside';
+import PricingPage from './pricingpage/PricingPage';
 import SkjemaSide from './skjemaside/skjemaside';
 import Home from './home/home';
 import PageNotFound from './pagenotfound/pagenotfound';
 
-function App() {
 
+function App() {
   return (
     <Router>
       <Navbar/>
       <div>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/tilbud' element={<TilbudSide/>}/>
+          <Route path='/tilbudSide' element={<PricingPage/>}/>
           <Route path='/skjemaSide' element={<SkjemaSide/>}/>
           <Route path='*' element={<PageNotFound/>}/>
         </Routes>

@@ -1,0 +1,13 @@
+.pricing_element{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 0px 12px;
+}
+
+.pricing_element p{
+    font-size: var(--text_size);
+    font-weight: 400;
+    color: var(--submain);
+    margin-bottom: 16px;
+}

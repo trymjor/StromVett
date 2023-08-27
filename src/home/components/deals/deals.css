@@ -1,11 +1,11 @@
-.avtaler{
+.deals{
     padding: 140px 24px 160px;
     overflow: hidden;
     background-color: var(--primary);
     height: 1000px;
 }
 
-.avtaler_container{
+.deals_container{
     display: grid;
     place-items: center;
     margin: auto;
@@ -13,14 +13,14 @@
     max-width: 1140px;
 }
 
-.avtaler h1{
+.deals h1{
     font-size: var(--title_size);
     font-weight: 700;
     margin-bottom: 34px;
     color: var(--submain);
 }
 
-.avtaler h2{
+.deals h2{
     font-size: var(--subtitle_size);
     font-weight: 400;
     margin-bottom: 34px;

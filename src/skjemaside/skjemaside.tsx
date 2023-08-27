@@ -3,6 +3,7 @@ import './skjemaside.css';
 import Tilbudskjema from './components/tilbudskjema/tilbudskjema';
 
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const SkjemaSide = () =>{
     return (
@@ -15,20 +16,22 @@ const SkjemaSide = () =>{
           <div className="skjema_container">
             <Tilbudskjema/>
           </div>
-          <div className='submit_button_container'>            
-            <Button variant="contained" sx={{ 
-              color: '#40545E', 
-              backgroundColor: '#A7D7C5', 
-              borderColor: '#A7D7C5', 
-              borderRadius: '25px',
-              '&:hover':{
-                backgroundColor: '#F9F8EB',
-              }, 
-              typography: {
-                fontFamily: 'Sen, sans-serif',
-                textTransform: 'none', 
-              }, 
-            }}>Se dine tilbud</Button>
+          <div className='submit_button_container'>
+            <Link to="/tilbudSide">
+              <Button variant="contained" sx={{ 
+                color: '#40545E', 
+                backgroundColor: '#A7D7C5', 
+                borderColor: '#A7D7C5', 
+                borderRadius: '25px',
+                '&:hover':{
+                  backgroundColor: '#F9F8EB',
+                }, 
+                typography: {
+                  fontFamily: 'Sen, sans-serif',
+                  textTransform: 'none', 
+                }, 
+              }}>Se dine tilbud</Button>
+            </Link>
           </div>
         </div>
       </div>
