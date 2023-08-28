@@ -1,3 +1,4 @@
+import CarouselComponent from './components/CarouselComponent';
 import './deals.css';
 
 const Deals = () => {
@@ -8,12 +9,7 @@ const Deals = () => {
                     <div className='title_container'>
                         <h1>Strømavtaler</h1>
                     </div>
-                    <div className='content_container'>
-                        <div className='upper_container'>
-                        </div>
-                        <div className='lower_container'>
-                        </div>
-                    </div>
+                    <CarouselComponent/>
                 </div>
             </div>
         </div>
