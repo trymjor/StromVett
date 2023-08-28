@@ -20,10 +20,12 @@ const PricingPage = () =>{
   const [maxprice, setMaxprice] = useState<number>(0);
 
   const fetch = async () => {
-    const {data} = await axios.get('https://future-of-fintech-v2023.vercel.app/api/providers');
-    getMaxPrice(data);
-    setPricing(data);
-    console.log('SortedArray', pricing);
+    await axios.get('https://future-of-fintech-v2023.vercel.app/api/providers').then(function (response){
+      setPricing(response.data);
+      getMaxPrice(response.data);
+    }).catch(function (error){
+      console.log(error);
+    });
   }
 
   const getMaxPrice = (pricing: Array<Pricing>) => {
@@ -51,43 +53,48 @@ const PricingPage = () =>{
   }, []);
 
 const renderPricingElement = ():ReactElement => {
-  return (
-      <>
-      {pricing.map((pricing, index) => {
-      switch (pricing.pricingModel) {
-        case 'fixed':
-        return <PricingElement 
-        key={index}
-        powersupplier={pricing.name} 
-        price={pricing.fixedPrice!} 
-        maxprice={maxprice} 
-        avtaletype='Fastpris'/>;
-      case 'variable':
-        return <PricingElement
-        key={index}
-        powersupplier={pricing.name}
-        price={pricing.variablePrice!}
-        maxprice={maxprice}
-        avtaletype='Variable pris'/>;
-      case 'spot-hourly':
-        return <PricingElement
-        key={index}
-        powersupplier={pricing.name}
-        price={pricing.spotPrice!}
-        maxprice={maxprice}
-        avtaletype='Times spotpris'/>;
-      case 'spot-monthly':
-        return <PricingElement
-        key={index}
-        powersupplier={pricing.name}
-        price={pricing.spotPrice!}
-        maxprice={maxprice}
-        avtaletype='Månedlig spotpris'/>;
-      }
-    })
+  if(pricing.length === 0){
+    return <></>
   }
-      </>
-    )
+  else{
+    return (
+        <>
+          {pricing.map((pricing, index) => {
+          switch (pricing.pricingModel) {
+            case 'fixed':
+              return <PricingElement 
+              key={index}
+              powersupplier={pricing.name} 
+              price={pricing.fixedPrice!} 
+              maxprice={maxprice} 
+              avtaletype='Fastpris'/>;
+            case 'variable':
+              return <PricingElement
+              key={index}
+              powersupplier={pricing.name}
+              price={pricing.variablePrice!}
+              maxprice={maxprice}
+              avtaletype='Variable pris'/>;
+            case 'spot-hourly':
+              return <PricingElement
+              key={index}
+              powersupplier={pricing.name}
+              price={pricing.spotPrice!}
+              maxprice={maxprice}
+              avtaletype='Times spotpris'/>;
+            case 'spot-monthly':
+              return <PricingElement
+              key={index}
+              powersupplier={pricing.name}
+              price={pricing.spotPrice!}
+              maxprice={maxprice}
+              avtaletype='Månedlig spotpris'/>;
+            }
+          })
+        }
+        </>
+      )
+  }
 }
 
   return (
