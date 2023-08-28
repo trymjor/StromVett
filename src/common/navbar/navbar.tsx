@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Tilbudbutton from '../offerbutton/OfferButton';
 import './navbar.css';
-// @ts-ignore
 import { Link as ScrollLink } from 'react-scroll';
 import { Link, useLocation } from 'react-router-dom';
 
