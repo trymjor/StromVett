@@ -1,7 +1,7 @@
 {
   "name": "StrømVett",
   "version": "0.1.0",
-  "homepage": "https://trymjor.github.io/stromvett",
+  "homepage": "https://trymjor.github.io/StromVett",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
