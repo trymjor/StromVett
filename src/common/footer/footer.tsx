@@ -1,7 +1,7 @@
 import './footer.css';
 // @ts-ignore
 import { Link } from 'react-scroll';
-import Tilbudbutton from '../tilbudbutton/tilbudbutton';
+import Tilbudbutton from '../offerbutton/OfferButton';
 
 const footer = () => {  
     return (

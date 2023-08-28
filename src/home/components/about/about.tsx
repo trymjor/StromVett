@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import Tilbudbutton from '../../../common/tilbudbutton/tilbudbutton';
+import Tilbudbutton from '../../../common/offerbutton/OfferButton';
 import save_money from '../../../assets/images/save-money.png';
 import solution from '../../../assets/images/solution.png';
 

@@ -17,7 +17,7 @@ const FormPage = () =>{
             <Tilbudskjema/>
           </div>
           <div className='submit_button_container'>
-            <Link to="/tilbudSide">
+            <Link to="/tilbud">
               <Button variant="contained" sx={{ 
                 color: '#40545E', 
                 backgroundColor: '#A7D7C5', 

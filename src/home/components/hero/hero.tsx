@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.css';
-import Tilbudbutton from '../../../common/tilbudbutton/tilbudbutton';
+import Tilbudbutton from '../../../common/offerbutton/OfferButton';
 import HeroStockPhoto from '../../../assets/images/HeroStockPhoto.jpg';
 
 const hero = () => {

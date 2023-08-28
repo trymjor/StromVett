@@ -18,8 +18,8 @@ function App() {
       <div>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/tilbudSide' element={<PricingPage/>}/>
-          <Route path='/skjemaSide' element={<FormPage/>}/>
+          <Route path='/tilbud' element={<PricingPage/>}/>
+          <Route path='/skjema' element={<FormPage/>}/>
           <Route path='*' element={<PageNotFound/>}/>
         </Routes>
       </div>
