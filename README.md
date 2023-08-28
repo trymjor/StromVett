@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# StrømVett
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this project I tried to create an application that would help consumers choose the power provider that is cheapest for them. In addition to this, I wanted to enhance accessibility to information regarding the different electricity offers to improve overall understanding among the users.
 
-## Available Scripts
+## How to run
+
+To install all dependencies, you can run:
+
+### 'npm install'
 
 In the project directory, you can run:
 
@@ -11,36 +15,24 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Generel information
 
-### `npm test`
+The website was created to optimally adapt to desktop users and the website can be viewed here:
+- [StrømVett](https://trymjor.github.io/StromVett/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Alongside the development of the React website, a dedicated Figma design file has been crafted to improve prototype and to better understand the task. The designfile can be found here:
+- [Figma Design - StrømVett]([https://trymjor.github.io/StromVett/](https://www.figma.com/file/guXP7TAQop2z3GL8XUxwY6/Stacc?type=design&node-id=0%3A1&mode=design&t=oeO8oQhw1rYn7Oci-1)).
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Landing page
+Clear landing page that collect the users attention as well as providing the key elements of the application.
+TODO: Improve carousel feature to be more informative to the user.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Form page
+Input fields to gather information that could later be used for dividing into different pricing regions and customize reccomendations.
+TODO: Utilize the information from the input fields.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Pricing page
+Easy comparison for the user of the different powersuppliers available to them.
