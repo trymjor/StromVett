@@ -1,19 +1,19 @@
 import React from 'react';
-import './skjemaside.css';
-import Tilbudskjema from './components/tilbudskjema/tilbudskjema';
+import './formpage.css';
+import Tilbudskjema from './components/tilbudskjema/OfferForm';
 
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
-const SkjemaSide = () =>{
+const FormPage = () =>{
     return (
-      <div className="skjemaside" id="skjemaside">
-        <div className="skjema_container">
+      <div className="formpage" id="formpage">
+        <div className="form_container">
           <div className='title_container'>
             <h1>Få et tilbud</h1>
             <h2>For å gi deg de beste tilbudene i ditt område trenger vi litt informasjon:</h2>
           </div>
-          <div className="skjema_container">
+          <div className="form_container">
             <Tilbudskjema/>
           </div>
           <div className='submit_button_container'>
@@ -38,5 +38,5 @@ const SkjemaSide = () =>{
     );
   }
   
-  export default SkjemaSide;
+  export default FormPage;
   

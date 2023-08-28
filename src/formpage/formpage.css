@@ -1,10 +1,10 @@
-.skjemaside{
+.formpage{
     padding: 140px 24px 160px;
     overflow: hidden;
     background-color: var(--main);
 }
 
-.skjema_container{
+.form_container{
     max-width: 1140px;
     margin: 0 auto;
     display: grid;
@@ -15,14 +15,14 @@
     text-align: center;
 }
 
-.skjema_container h1{
+.form_container h1{
     font-size: var(--title_size);
     font-weight: 700;
     color: var(--dark_primary);
     margin-bottom: 48px;
 }
 
-.skjema_container h2{
+.form_container h2{
     font-size: var(--subtitle_size);
     font-weight: 400;
     color: var(--dark_primary);
@@ -30,7 +30,7 @@
     max-width: 700px;
 }
 
-.skjema_container p{
+.form_container p{
     font-size: var(--text_size);
     font-weight: 400;
     color: var(--dark_primary);

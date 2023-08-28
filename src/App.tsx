@@ -6,7 +6,7 @@ import './variables.css';
 import {Footer, Navbar} from './common/';
 
 import PricingPage from './pricingpage/PricingPage';
-import SkjemaSide from './skjemaside/skjemaside';
+import FormPage from './formpage/FormPage';
 import Home from './home/home';
 import PageNotFound from './pagenotfound/pagenotfound';
 
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/tilbudSide' element={<PricingPage/>}/>
-          <Route path='/skjemaSide' element={<SkjemaSide/>}/>
+          <Route path='/skjemaSide' element={<FormPage/>}/>
           <Route path='*' element={<PageNotFound/>}/>
         </Routes>
       </div>
