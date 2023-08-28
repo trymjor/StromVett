@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stromvett/static/css/main.9ee61027.css",
+    "main.js": "/stromvett/static/js/main.dc01b952.js",
+    "static/media/HeroStockPhoto.jpg": "/stromvett/static/media/HeroStockPhoto.49547b16cdc805b7f70b.jpg",
+    "static/media/solution.png": "/stromvett/static/media/solution.b00d66edf220bf2072c5.png",
+    "static/media/save-money.png": "/stromvett/static/media/save-money.9a742ac8251fb56a5153.png",
+    "index.html": "/stromvett/index.html",
+    "main.9ee61027.css.map": "/stromvett/static/css/main.9ee61027.css.map",
+    "main.dc01b952.js.map": "/stromvett/static/js/main.dc01b952.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee61027.css",
+    "static/js/main.dc01b952.js"
+  ]
+}
