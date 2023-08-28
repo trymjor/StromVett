@@ -21,7 +21,7 @@ The website was created to optimally adapt to desktop users and the website can 
 - [StrømVett](https://trymjor.github.io/StromVett/).
 
 Alongside the development of the React website, a dedicated Figma design file has been crafted to improve prototype and to better understand the task. The designfile can be found here:
-- [Figma Design - StrømVett]([https://trymjor.github.io/StromVett/](https://www.figma.com/file/guXP7TAQop2z3GL8XUxwY6/Stacc?type=design&node-id=0%3A1&mode=design&t=oeO8oQhw1rYn7Oci-1)).
+- [Figma Design - StrømVett](https://www.figma.com/file/guXP7TAQop2z3GL8XUxwY6/Stacc?type=design&node-id=0%3A1&mode=design&t=oeO8oQhw1rYn7Oci-1).
 
 
 ## Key Features
