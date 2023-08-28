@@ -33,13 +33,22 @@ function Navbar() {
                 <div className="navbar_menu">
                     <ul>
                         <li className='nav-item'>
-                            <ScrollLink to="about" spy={true} smooth={true} duration={500}>Om Oss</ScrollLink>
+                            {
+                                isHomePage ? (<ScrollLink to="about" spy={true} smooth={true} duration={500}>Om Oss</ScrollLink>) : 
+                                (<Link to='/' style={{ textDecoration: 'none' }}>Om Oss</Link>)
+                            }
                         </li>
                         <li className='nav-item'>
-                            <ScrollLink to="deals" spy={true} smooth={true}duration={500}>Strømavtaler</ScrollLink>
+                            {
+                                isHomePage ? (<ScrollLink to="deals" spy={true} smooth={true} duration={500}>Strømavtaler</ScrollLink>) :
+                                (<Link to='/' style={{ textDecoration: 'none' }}>Strømavtaler</Link>)
+                            }
                         </li>
                         <li className='nav-item'>
-                            <ScrollLink to="footer" spy={true} smooth={true} duration={500}>Kontakt</ScrollLink>
+                            {
+                                isHomePage ? (<ScrollLink to="footer" spy={true} smooth={true} duration={500}>Kontakt</ScrollLink>) :
+                                (<Link to='/' style={{ textDecoration: 'none' }}>Kontakt</Link>)
+                            }
                         </li>
                         <li className='nav-item' style={{borderBottom: 0,}}>
                             <Tilbudbutton/>
